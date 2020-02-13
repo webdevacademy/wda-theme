@@ -10,3 +10,21 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: baskerville
 */
+
+header.header {
+	display: none;
+}
+
+.post-content pre code { 
+  font-size: 1em;
+  line-height: 1.5em;
+	padding: 0;
+}
+
+.post-content :not(pre) > code[class="language-text"] {
+	background: #eee;
+	border-radius: 3px;
+	color: #444;
+	padding: 5px;
+	text-shadow: none;
+}
